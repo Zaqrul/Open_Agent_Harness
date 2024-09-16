@@ -1,0 +1,18 @@
+{
+  "name": "openagent-harness-windows-x64",
+  "version": "3.15.1",
+  "description": "Platform-specific binary for openagent-harness (windows-x64)",
+  "license": "MIT",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "openagent-harness": "./bin/openagent-harness.exe"
+  }
+}

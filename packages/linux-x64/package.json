@@ -1,0 +1,21 @@
+{
+  "name": "openagent-harness-linux-x64",
+  "version": "3.15.1",
+  "description": "Platform-specific binary for openagent-harness (linux-x64)",
+  "license": "MIT",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "libc": [
+    "glibc"
+  ],
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "openagent-harness": "./bin/openagent-harness"
+  }
+}

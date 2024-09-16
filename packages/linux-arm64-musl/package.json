@@ -1,0 +1,21 @@
+{
+  "name": "openagent-harness-linux-arm64-musl",
+  "version": "3.15.1",
+  "description": "Platform-specific binary for openagent-harness (linux-arm64-musl)",
+  "license": "MIT",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "libc": [
+    "musl"
+  ],
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "openagent-harness": "./bin/openagent-harness"
+  }
+}
